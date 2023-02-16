@@ -4,8 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#121212",
-      }
+        "primary": "#F0E7DB",
+        "primary-dark": "#121212",
+      },
+      fontFamily: {
+        'MPlusRounded': ['"M PLUS Rounded 1c"', 'sans-serif'],
+      },
+      container: {
+        padding: "30%",
+      },
     },
   },
   plugins: [],
