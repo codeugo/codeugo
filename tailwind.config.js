@@ -6,12 +6,15 @@ module.exports = {
       colors: {
         "primary": "#F0E7DB",
         "primary-dark": "#121212",
+        "accentgreen": "#42B883",
+        "accentdarkgreen": "#2B7855",
       },
       fontFamily: {
         'MPlusRounded': ['"M PLUS Rounded 1c"', 'sans-serif'],
       },
       container: {
-        padding: "30%",
+        padding: "20%",
+        center: true,
       },
     },
   },
