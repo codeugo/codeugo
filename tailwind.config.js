@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", ],
   theme: {
     extend: {
@@ -7,7 +8,8 @@ module.exports = {
         "primary": "#F0E7DB",
         "primary-dark": "#121212",
         "accentgreen": "#42B883",
-        "accentdarkgreen": "#2B7855",
+        "accentgreen2": "#3BA575",
+        "accentgreen3": "#318760",
       },
       fontFamily: {
         'MPlusRounded': ['"M PLUS Rounded 1c"', 'sans-serif'],
