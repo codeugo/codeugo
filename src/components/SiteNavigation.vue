@@ -6,7 +6,7 @@
                     <img src="../assets/code(ugo).svg">
                 </div>
             </RouterLink>
-            <p class="text-2xl">Projets</p>
+            <p class="text-2xl font-mplusrounded">Projets</p>
             <div class="flex justify-end gap-3 flex-1">
                 <DarkMode/>
             </div>

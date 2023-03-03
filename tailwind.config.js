@@ -12,7 +12,7 @@ module.exports = {
         "accentgreen3": "#318760",
       },
       fontFamily: {
-        'MPlusRounded': ['"M PLUS Rounded 1c"', 'sans-serif'],
+        'mplusrounded': ['"M PLUS Rounded 1c"'],
       },
       container: {
         padding: "20%",
