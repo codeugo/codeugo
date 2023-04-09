@@ -3,15 +3,6 @@ import { shallowRef } from 'vue';
 import { RouterView } from "vue-router";
 import { useRenderLoop } from '@tresjs/core';
 import { OrbitControls, GLTFModel } from '@tresjs/cientos';
-const modelRef = shallowRef(null);
-const { onLoop } = useRenderLoop();
-
-onLoop(({ delta, elapsed }) => {
-  if (modelRef.value) {
-    modelRef.value.rotation.y += delta;
-    modelRef.value.rotation.z = elapsed * 0.2;
-  }
-});
 </script>
 
 
