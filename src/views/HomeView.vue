@@ -23,6 +23,6 @@ import { OrbitControls, GLTFModel } from '@tresjs/cientos';
       </Suspense>
       </TresScene>
   </TresCanvas>
-    <main>Teste de TresJS et Cientos</main>
+    <main>Reviens le 12 avril 😉</main>
   </div>
 </template>
