@@ -17,7 +17,7 @@ import { OrbitControls, GLTFModel } from '@tresjs/cientos';
       <Suspense>
         <GLTFModel
           ref="modelRef"
-          path="./src/assets/model.gltf"
+          path="https://raw.githubusercontent.com/codeugo/codeugo/main/src/assets/model.gltf"
           draco
         />
       </Suspense>
