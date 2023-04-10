@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       colors: {
         "primary": "#FFFFFF",
-        "primary-dark": "#202023",
+        "primary-dark": "#121212",
+        "primary-dark-lighter": "#1F1F1F",
+        "bracket": "#333333",
         "accentgreen": "#42B883",
         "accentgreen2": "#3BA575",
         "accentgreen3": "#318760",
