@@ -17,7 +17,10 @@ module.exports = {
         'mplusrounded': ['"M PLUS Rounded 1c"'],
       },
       container: {
-        padding: "25%",
+        padding: {
+          sm: "25%",
+          DEFAULT: "5%",
+        },
         center: true,
       },
       keyframes: {
