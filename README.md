@@ -1,4 +1,4 @@
-# [code(ugo)](https://github.com/codeugo/codeugo/blob/main/src/assets/pfp.png)
+# ![plot](./src/assets/pfp.png) code(ugo)
 Mon site vitrine.
 ## Technologies
 Tailwind CSS;  
