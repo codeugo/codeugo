@@ -1,4 +1,5 @@
 <template>
+  <div class="font-mplusrounded">
   <SiteNavigation/>
   <div class="flex flex-col max-w-xl mx-auto">
     <div class="container h-80">
@@ -27,6 +28,7 @@
   </div>
     <RouterView/>
   </div>
+</div>
 </template>
 
 <script setup>
