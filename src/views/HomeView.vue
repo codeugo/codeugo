@@ -1,10 +1,10 @@
 <template>
   <div class="container h-80">
     <div class="animate-fade-in-down py-6">
-      <h3 class="decoration-accentgreen decoration-4 underline text-2xl font-bold font-mplusrounded pt-2">Moi</h3>
+      <h3 class="decoration-accentgreen decoration-4 underline text-2xl font-bold font-mplusrounded sm:pt-2 pt-8">Moi</h3>
       <div class="flex">
         <p class="indent-8 font-mplusrounded text-justify pr-2">Enfant d'internet, je suis depuis le plus jeune âge passionné par l'informatique. À 12 ans je monte mon premier ordinateur et en 3ème je fais mon stage dans une des nombreuses start-up de Lyon. Aujourd'hui, j'apprends en autodidacte les différents outils de développement.</p>
-        <img class="hidden lg:block" src="../assets/pfp.png">
+        <img class="hidden lg:block object-scale-down" src="../assets/pfp.png">
       </div>
       <RouterLink :to="{name: 'projects'}">
         <button type="button" class="px-3 py-3 bg-accentgreen text-white font-medium text-xs uppercase rounded-md shadow-md hover:bg-accentgreen2 hover:shadow-lg active:bg-accentgreen3 active:shadow-lg transition duration-150 ease-in-out">Mes Projets ></button>

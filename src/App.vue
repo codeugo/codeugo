@@ -1,6 +1,6 @@
 <template>
   <SiteNavigation/>
-  <div class="flex flex-col">
+  <div class="flex flex-col max-w-xl mx-auto">
     <div class="container h-80">
     <TresCanvas shadows alpha>
       <TresScene> 

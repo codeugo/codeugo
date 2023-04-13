@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="animate-fade-in-down py-6">
-            <h3 class="decoration-accentgreen decoration-4 underline text-2xl font-bold font-mplusrounded pt-2">Egus</h3>
+            <h3 class="decoration-accentgreen decoration-4 underline text-2xl font-bold font-mplusrounded sm:pt-2 pt-8">Egus</h3>
             <div class="flex">
                 <img class="hidden lg:block object-scale-down" src="../assets/egusproject.png">
                 <p class="indent-8 font-mplusrounded text-justify pl-2">Bras Robotisé contrôlable à l'aide du gyroscope d'un smartphone Android à destination des handicapés, construit à l'aide d'un arduino et de MIT App Inventor. <a href="https://github.com/codeugo/egus" target=”_blank” class="text-accentgreen">Lien Github</a></p>
